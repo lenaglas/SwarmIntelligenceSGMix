@@ -12,14 +12,12 @@ This project aims to overcome this by using swarm intelligence to control the fl
 
 ## Prototypical Implementation and Evaluation
 
-The concept was protoypically implemented in python using two different modes of optimization (per batch (1) and continuous (2)). The implementation allows to set up a network with a customizable amount of senders and batch size and to allocate a different flow-rate of non-dummy messages to each sender. This enables to evaluate test settings with different heterogeneity of the network. The prototype was tested with a Batch-size of 5, 10 and 20 for 2 and 5 senders. The evaluation takes the time it takes a message to be sent to its receiver minus the intented delay assigned by the SG-Mix as a factor to measure the utilization of the network. The lower this duration is the better the utilization of the network. Each test run compromised 500 messages per sender and considered the respective median. The evaluation shows that using swarm intelligence can improve the utilization of 
+The concept was protoypically implemented in python using two different modes of optimization (per batch (1) and continuous (2)). The implementation allows to set up a network with a customizable amount of senders and batch size and to allocate a different flow-rate of non-dummy messages to each sender. This enables to evaluate test settings with different heterogeneity of the network. The prototype was tested with a Batch-size of 5, 10 and 20 for 2 and 5 senders. The evaluation takes the time it takes a message to be sent to its receiver minus the intented delay assigned by the SG-Mix as a factor to measure the utilization of the network. The lower this duration is the better the utilization of the network. Each test run compromised 500 messages per sender and considered the respective median. The evaluation shows that using swarm intelligence can improve the utilization of an SG-Mix network - especially in larger and heterogenuous networks. The graphs below show the results of the test run sets (Batch-Size 5| 2 Senders) and (Batch-Size 20| 5 Senders).
 
 
+![grafik](https://user-images.githubusercontent.com/56884203/114436097-3ed5e580-9bc5-11eb-80d5-65b147b9c211.png)
 
-
-
-
-
+![grafik](https://user-images.githubusercontent.com/56884203/114436403-8f4d4300-9bc5-11eb-9d0b-0f1c15848d66.png)
 
 
 
