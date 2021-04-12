@@ -1,0 +1,6 @@
+optimization_factor;Median;Batch Size;Waited for Batch;Max Lambda;Min Lambda;OPT Mode
+0,025;0,1509085;5;29;0;0;3
+0,025;0,150618;5;39;0;0;3
+0,025;0,148654;5;29;0;0;3
+0,025;0,151944;5;37;0;0;3
+0,025;0,145144;5;22;0;0;3
